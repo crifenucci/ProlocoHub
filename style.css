@@ -228,6 +228,11 @@
             font-size: 0.78rem;
         }
 
+        footer .iubenda-embed {
+            align-self: flex-start;
+            width: fit-content;
+        }
+
         @media (max-width: 700px) {
             .page-shell { width: min(100% - 32px, 520px); padding-top: 22px; }
             .topbar { margin-bottom: 54px; }
